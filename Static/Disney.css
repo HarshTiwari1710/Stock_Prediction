@@ -1,0 +1,111 @@
+/*Css Reset*/
+*{
+    margin: 0;
+    padding: 0;
+} 
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    height: 670px;
+    justify-content: center;
+    align-items: center;
+}
+#home::before{
+    content: "";
+    background: url(./benjamin-suter-7VHsb9sGBKs-unsplash.jpg) no-repeat center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;  
+}
+#home h1{
+    color: green;
+    box-align:center;
+    font-family: 'Oswald', sans-serif;
+}
+#home p{
+    color:red;
+    box-align:center;
+    font-size: 1.5rem;
+    font-family: 'Grenze Gotisch', cursive;
+}
+/*Services Section*/
+#services::before{
+    content: "";
+    position: absolute;
+    background: url('./ashley-van-nuys-etEZfkEWzNM-unsplash.jpg') no-repeat center center/cover;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.3;
+   }
+#services{
+    margin: 34px;
+    display: flex;
+}
+#services .box{ 
+    border: 2px solid orange;
+    padding: 13px;
+    margin: 2px 55px;
+    background: #f2f2f2;
+} 
+#services .box img{ 
+    height: 165px;
+    margin: auto;
+    display: block;
+} 
+#services .box p{
+    font-family: 'Baloo Bhaina 2', cursive; 
+  
+} 
+#graphs::before{
+    content: "";
+    position: absolute;
+    background: url('./taylor-rogers-XptxqeT0Wo4-unsplash.jpg') no-repeat center center/cover;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.3;
+   }
+   
+   #graphs{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+   }
+
+   
+   #graphs img{
+       height: 350px;
+   }
+   .h-primary{
+    font-size: 3.8rem;
+    padding: 12px;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+.h-secondary{
+    font-size: 1.8rem;
+    padding: 12px;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+.center{
+    text-align: center;
+}
+.btn{
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color: brown;
+    color: white;
+    margin: 17px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    cursor:pointer;
+    align-items: center;
+    justify-items: center;
+}
+.client-item{
+    padding: 34px;
+}
+   

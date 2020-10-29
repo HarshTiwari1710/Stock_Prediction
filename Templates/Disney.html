@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disney</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='Disney.css')}}">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section id="home">
+
+        <body>
+            <h1 class="h-primary"> Disney - A Walt. Disney Productions</h1>
+            <p>The Walt Disney Company, commonly known as Disney (/ˈdɪzni/),[3] is an American diversified multinational
+                mass media and entertainment conglomerate headquartered at the Walt Disney Studios complex in Burbank,
+                California.
+
+                Disney was originally founded on October 16, 1923, by brothers Walt and Roy O. Disney as the Disney
+                Brothers Cartoon Studio; it also operated under the names The Walt Disney Studio and Walt Disney
+                Productions before officially changing its name to The Walt Disney Company in 1986. The company
+                established itself as a leader in the American animation industry before diversifying into live-action
+                film production, television, and theme parks.
+
+                Since the 1980s, Disney has created and acquired corporate divisions in order to market more mature
+                content than is typically associated with its flagship family-oriented brands. The company is known for
+                its film studio division, The Walt Disney Studios, which includes Walt Disney Pictures, Walt Disney
+                Animation Studios, Pixar, Marvel Studios, Lucasfilm, 20th Century Studios, Searchlight Pictures, and
+                Blue Sky Studios. Disney's other main business units include divisions in television, broadcasting,
+                streaming media, theme park resorts, consumer products, publishing, and international operations. </p>
+    </section>
+    <section id="services-container">
+        <h1 class="h-primary center">Information</h1>
+        <div id="services">
+            <div class="box">
+                <img src="{{url_for('static',filename='walt-disney-united-artistis-photofest-croppedjpg.jpg')}}" alt="">
+                <h2 class="h-secondary center">Some Basic Information</h2>
+                <p class="center">Founded By:Walt Disney, Roy O. Disney<br>
+                    Founded on : October 16, 1923; 97 years ago <br>
+                    headquarters: Team Disney Building, Walt Disney Studios, Burbank, California, United States <br>
+                    Area Served: Worldwide<br>
+                    Key People:<br>
+                    Bob Iger<br>
+                    (Executive chairman)<br>
+                    Bob Chapek<br>
+                    (CEO)<br>
+            </div>
+            <div class="box">
+                <img src="{{url_for('static',filename='06.24.1893-roy-disney-1180x600-780x440.jpg')}}" alt="">
+                <h2 class="h-secondary center">List Of Products:</h2>
+                <p class="center">
+                    Television<br> 
+                    publishing<br>
+                    films <br>
+                    music<br>
+                    video games <br>
+                    amusement parks <br>
+                    streaming<br> 
+                    broadcasting<br> 
+                    radio<br> 
+                    web portals<br></p>
+            </div>
+    </section>
+
+
+    <section class="graphs">
+        <h1 class="h-secondary center">Graph:</h1>
+        <h3 class="h-secondary center">Time Span : 18days</h3>
+        <div id="graphs">
+            <img src="{{url_for('static',filename='Disney.png')}}" alt="Disney">
+        </div>
+        <style>
+            #customers {
+                font-family: Arial, Helvetica, sans-serif;
+                border-collapse: collapse;
+                width: 100%;
+            }
+
+            #customers td,
+            #customers th {
+                border: 1px solid #ddd;
+                padding: 8px;
+            }
+
+            #customers tr:nth-child(even) {
+                background-color: #f2f2f2;
+            }
+
+            #customers tr:hover {
+                background-color: #ddd;
+            }
+
+            #customers th {
+                padding-top: 12px;
+                padding-bottom: 12px;
+                text-align: left;
+                background-color: #4CAF50;
+                color: white;
+            }
+        </style>
+        <table id="customers">
+            <tr>
+                <th>S.no</th>
+                <th>Actual Price:</th>
+                <th>Predicted Price:</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>115.04</td>
+                <td>115.06</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>109.00</td>
+                <td>110.53</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>87.11</td>
+                <td>87.52</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>93.49</td>
+                <td>93.07</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>102.56</td>
+                <td>102.48</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>103.44</td>
+                <td>103.62</td>
+            </tr>
+        </table>
+    </section>
+
+</body>
+
+</html>

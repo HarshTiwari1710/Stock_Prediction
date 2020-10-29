@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Microsoft</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='microstyle.css')}}">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section id="home">
+        <body>
+        <h1 class="h-primary">Microsoft-BILL GATES WORLD</h1>
+        <p>Microsoft Corporation is an American multinational technology company
+            with headquarters in Redmond, Washington. It develops, manufactures, licenses,
+            supports, and sells computer software, consumer electronics, personal computers,
+            and related services. Its best known software products are the Microsoft Windows
+            line of operating systems, the Microsoft Office suite, and the Internet Explorer
+            and Edge web browsers. Its flagship hardware products are the Xbox video game
+            consoles and the Microsoft Surface lineup of touchscreen personal computers.
+            Microsoft ranked No. 21 in the 2020 Fortune 500 rankings of the largest
+            United States corporations by total revenue;[3] it was the world's largest
+            software maker by revenue as of 2016[4] and is considered one of the domestic
+            Big Five technology companies.</p>
+    </section>
+    <section id="services-container">
+        <h1 class="h-primary center">Information</h1>
+        <div id="services">
+            <div class="box">
+                <img src="{{url_for('static',filename='download.jpg')}}" alt="">
+                <h2 class="h-secondary center">Some Basic Information</h2>
+                <p class="center">Founded By: Mr. Bill Gates & Mr. Paul Allen <br>
+                    Founded on : April 4, 1975 <br>
+                    headquarters: One Microsoft Way Redmond, Washington, U.S. <br>
+                    Area Served: Worldwide<br>
+                    Key People:<br>
+                    Chairman: John W. Thompson<br>
+                    CEO: Satya Nadella<br>
+                    President: Brad Smith<br>
+                    Technical advisor: Bill Gates<br></p>
+            </div>
+            <div class="box">
+                <img src="{{url_for('static',filename='download(1).jpg')}}" alt="">
+                <h2 class="h-secondary center">Services</h2>
+                <p class="center">Azure<br>
+                    Bing<br>
+                    LinkedIn<br>
+                    Yammer<br>
+                    MSDNOffice 365<br>
+                    OneDrive<br>
+                    Outlook.com<br>
+                    GitHub<br>
+                    TechNetPay<br>
+                    Microsoft Store<br>
+                    Windows Update<br>
+                    Xbox Game Pass<br>
+                    Xbox Live<br></p>
+            </div>
+            <div class="box">
+                <img src="{{url_for('static',filename='download (2).jpg')}}" alt="">
+                <h2 class="h-secondary center">List Of Products:</h2>
+                <p class="center">Windows<br>
+                    OfficeServers<br>
+                    Skype<br>
+                    Visual Studio<br>
+                    Dynamics<br>
+                    Xbox<br>
+                    Surface<br>
+                    Mobile<br></p>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="graphs">
+        <h1 class="h-secondary center">Graph:</h1>
+        <h3 class="h-secondary center">Time Span : 18days</h3>
+        <div id="graphs">
+        <img src="{{url_for('static',filename='Microsoft.png')}}" alt="Microsoft">
+    </div>
+    <style>
+            #customers {
+                font-family: Arial, Helvetica, sans-serif;
+                border-collapse: collapse;
+                width: 100%;
+            }
+
+            #customers td,
+            #customers th {
+                border: 1px solid #ddd;
+                padding: 8px;
+            }
+
+            #customers tr:nth-child(even) {
+                background-color: #f2f2f2;
+            }
+
+            #customers tr:hover {
+                background-color: #ddd;
+            }
+
+            #customers th {
+                padding-top: 12px;
+                padding-bottom: 12px;
+                text-align: left;
+                background-color: #4CAF50;
+                color: white;
+            }
+        </style>
+        <table id="customers">
+            <tr>
+              <th>S.no</th>
+              <th>Actual Price:</th>
+              <th>Predicted Price:</th>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>53.36</td>
+              <td>53.54</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>63.34</td>
+              <td>63.52</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>45.53</td>
+                <td>43.59</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>60.63</td>
+                <td>63.88</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>51.79</td>
+                <td>52.59</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>72.83</td>
+                <td>72.73</td>
+            </tr>
+          </table>
+        </section>
+
+</body>
+
+</html>

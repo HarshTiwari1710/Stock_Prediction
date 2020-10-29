@@ -1,0 +1,126 @@
+/*Services Section*/
+#companies h1{
+    color: whitesmoke;
+    box-align:center;
+    font-family: 'Baloo Bhaina 2', cursive; 
+}
+#bluechip{
+    margin: 34px;
+    display: flex;
+}
+#bluechip .box{ 
+    border: 2px solid green;
+    padding: 13px;
+    margin: 2px 55px;
+    background: #7E58A7;
+} 
+#bluechip .box img{ 
+    height: 165px;
+    margin: auto;
+    display: block;
+} 
+#bluechip .box p{
+    font-family: 'Baloo Bhaina 2', cursive; 
+}
+/*Amazon_Stock*/
+#Amazon_stock{
+    margin: 34px;
+    display: flex;
+}
+#Amazon_stock .box{ 
+    border: 2px solid green;
+    padding: 13px;
+    margin: 2px 55px;
+    background: #7E58A7;
+} 
+#Amazon_stock .box img{ 
+    height: 165px;
+    margin: auto;
+    display: block;
+} 
+#Amazon_stock .box p{
+    font-family: 'Baloo Bhaina 2', cursive; 
+}
+/*Apple_Stocks*/
+#Apple_stock{
+    margin: 34px;
+    display: flex;
+}
+#Apple_stock .box{ 
+    border: 2px solid green;
+    padding: 13px;
+    margin: 2px 55px;
+    background: #7E58A7;
+} 
+#Apple_stock .box img{ 
+    height: 165px;
+    margin: auto;
+    display: block;
+} 
+#Apple_stock .box p{
+    font-family: 'Baloo Bhaina 2', cursive; 
+}
+/*Google_stock*/
+#Google_stock{
+    margin: 34px;
+    display: flex;
+}
+#Google_stock .box{ 
+    border: 2px solid green;
+    padding: 13px;
+    margin: 2px 55px;
+    background: #7E58A7;
+} 
+#Google_stock .box img{ 
+    height: 165px;
+    margin: auto;
+    display: block;
+} 
+#Google_stock .box p{
+    font-family: 'Baloo Bhaina 2', cursive; 
+}
+/*Facebook_Stocks*/
+#facebook_stock{
+    margin: 34px;
+    display: flex;
+}
+#facebook_stock .box{ 
+    border: 2px solid green;
+    padding: 13px;
+    margin: 2px 55px;
+    background: #7E58A7;
+} 
+#facebook_stock .box img{ 
+    height: 165px;
+    margin: auto;
+    display: block;
+} 
+#facebook_stock .box p{
+    font-family: 'Baloo Bhaina 2', cursive; 
+}
+/*Utility Classes*/
+.h-secondary{
+    font-size: 2.8rem;
+    padding: 12px;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+.center{
+    text-align: center;
+}
+.btn{
+    padding: 6px 20px;
+    border: 2px solid green;
+    background-color: #58A77E;
+    color: white;
+    margin: 17px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    cursor:pointer;
+    align-items: center;
+    justify-items: center;
+}
+.h-primary{
+    font-size: 3.8rem;
+    padding: 12px;
+    font-family: 'Baloo Bhaina 2', cursive;
+}

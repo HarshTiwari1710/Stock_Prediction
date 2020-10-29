@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intel</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='mcstyle.css')}}"alt="">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section id="home">
+
+        <body>
+            <h1 class="h-primary">MCDONALD'S - A Richard World</h1>
+            <p>McDonald's Corporation is an American fast food
+                company, founded in 1940 as a restaurant operated
+                by Richard and Maurice McDonald, in San Bernardino,
+                California, United States. They rechristened their
+                business as a hamburger stand, and later turned
+                the company into a franchise, with the Golden
+                Arches logo being introduced in 1953 at a
+                location in Phoenix, Arizona. In 1955, Ray Kroc,
+                a businessman, joined the company as a
+                franchise agent and proceeded to purchase the
+                chain from the McDonald brothers. McDonald's
+                had its original headquarters in Oak Brook,
+                Illinois, but moved its global headquarters to
+                Chicago in June 2018.
+
+                McDonald's is the world's largest restaurant chain by revenue,serving over 69 million customers daily in
+                over 100 countries[11] across 37,855 outlets as of 2018. Although McDonald's is best known for its
+                hamburgers, cheeseburgers and french fries, they feature chicken products, breakfast items, soft drinks,
+                milkshakes, wraps, and desserts. In response to changing consumer tastes and a negative backlash because
+                of the unhealthiness of their food,[14] the company has added to its menu salads, fish, smoothies, and
+                fruit.</p>
+    </section>
+    <section id="services-container">
+        <h1 class="h-primary center">Information</h1>
+        <div id="services">
+            <div class="box">
+                <img src="{{url_for('static',filename='Richard.jpg')}}" alt="">
+                <h2 class="h-secondary center">Some Basic Information</h2>
+                <p class="center">Founded By: Richard and Maurice McDonald (1st restaurant)
+                    Ray Kroc (Founder of the McDonald's Corporation)<br>
+                    Founded on : May 15, 1940; 80 years ago in San Bernardino, California <br>
+                    headquarters:Chicago, Illinois, U.S <br>
+                    Area Served: Worldwide<br>
+                    Key People:<br>
+
+                    Enrique Hernandez Jr.<br>
+                    (Chairman)<br>
+                    Chris Kempczinski<br>
+                    (president and CEO)<br>
+            </div>
+            <div class="box">
+                <img src="{{url_for('static',filename='download.jpg')}}"alt="">
+                <h2 class="h-secondary center">List Of Products:</h2>
+                <p class="center">
+                    Hamburgers<br>
+                    chickenfrench <br>
+                    fries<br>
+                    soft drinks<br>
+                    milkshakes<br>
+                    salads<br>
+                    desserts<br>
+                    coffee<br>
+                    breakfast<br>
+                    wraps<br></p>
+            </div>
+    </section>
+
+
+    <section class="graphs">
+        <h1 class="h-secondary center">Graph:</h1>
+        <h3 class="h-secondary center">Time Span : 18days</h3>
+        <div id="graphs">
+            <img src="{{url_for('static',filename='Mc Donalds.png')}}"alt="Apple">
+        </div>
+        <style>
+            #customers {
+                font-family: Arial, Helvetica, sans-serif;
+                border-collapse: collapse;
+                width: 100%;
+            }
+
+            #customers td,
+            #customers th {
+                border: 1px solid #ddd;
+                padding: 8px;
+            }
+
+            #customers tr:nth-child(even) {
+                background-color: #f2f2f2;
+            }
+
+            #customers tr:hover {
+                background-color: #ddd;
+            }
+
+            #customers th {
+                padding-top: 12px;
+                padding-bottom: 12px;
+                text-align: left;
+                background-color: #4CAF50;
+                color: white;
+            }
+        </style>
+        <table id="customers">
+            <tr>
+                <th>S.no</th>
+                <th>Actual Price:</th>
+                <th>Predicted Price:</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>34.03</td>
+                <td>33.96</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>36.38</td>
+                <td>36.44</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>33.47</td>
+                <td>33.60</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>34.92</td>
+                <td>34.95</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>29.60</td>
+                <td>29.85</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>34.65</td>
+                <td>34.66</td>
+            </tr>
+        </table>
+    </section>
+
+</body>
+
+</html>

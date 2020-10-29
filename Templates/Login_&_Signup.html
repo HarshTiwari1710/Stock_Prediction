@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="{{url_for('static',filename='login & signup.css')}}">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&family=Bree+Serif&display=swap"
+    rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@500&display=swap" rel="stylesheet">
+<title>Login & Signup - MOKEYMAKER.com</title>
+
+<body background="{{url_for('static',filename='pexels-michael-steinberg-342945.jpg')}}">
+
+
+    <section id="Signup-box">
+        <h1 class="h-primary center">Signup</h1>
+        <div id="Signup">
+            
+            <form  method="POST" action="/Login_&_Signup.html">
+    {{form.hidden_tag()}}
+    {{ form.csrf_token }}
+    {{form.username.label}}
+    {{ form.username() }}
+    {{form.email.label}}
+    {{form.email()}}
+    {{form.password.label}}
+    {{ form.password() }}
+    {{form.submit()}}
+         
+    </form>
+
+        </div>
+    </section>
+</body>
+
+</html>
